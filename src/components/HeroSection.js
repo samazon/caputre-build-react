@@ -1,7 +1,7 @@
 import React from 'react'
 import home1 from '../img/home1.png';
 
-function HeroSection() {
+const HeroSection = () => {
     return (
         <div className="hero__block">
             <div className="hero__block--heading">

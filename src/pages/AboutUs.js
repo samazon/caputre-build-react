@@ -1,11 +1,13 @@
 import React from 'react'
 import HeroSection from '../components/HeroSection'
+import ServicesSection from '../components/ServicesSection'
 
 
-function AboutUs() {
+const AboutUs = () => {
     return (
         <div className="about__us">
             <HeroSection />
+            <ServicesSection />
         </div>
     )
 }
