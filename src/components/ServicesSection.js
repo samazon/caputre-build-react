@@ -7,7 +7,7 @@ import teamwork from '../img/teamwork.svg'
 
 const ServicesSection = () => {
     return (
-        <div className="services">
+        <div className="services__block">
             <div className="description">
                 <div className="hide">
                     <h2>High</h2>
