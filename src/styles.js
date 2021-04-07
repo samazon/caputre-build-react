@@ -5,7 +5,7 @@ export const StyledAbout = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5rem 10rem;
+    padding: 5rem 2rem;
     color: #fff;
 `
 

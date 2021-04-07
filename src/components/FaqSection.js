@@ -43,6 +43,7 @@ const FaqSection = () => {
 }
 
 const Faq = styled(StyledAbout)`
+  padding: 5rem 2rem;
   display: block;
   span {
     display: block;

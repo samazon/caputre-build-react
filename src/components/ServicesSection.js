@@ -47,19 +47,20 @@ const ServicesSection = () => {
                 </Cards>
             </StyledDescription>
             <Image>
-                <img src={home2} alt="image"/>
+                <img src={home2} alt="section illustration"/>
             </Image>
         </StyledServies>
     )
 }
 // Component Styles
 const StyledServies = styled(StyledAbout)`
+
   min-height: 90vh;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5rem 10rem;
+  padding: 5rem 2rem;
   h2 {
     padding-bottom: 5rem;
   }
