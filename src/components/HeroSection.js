@@ -4,6 +4,7 @@ import { Hide, Image, StyledAbout, StyledDescription } from '../styles'
 import {motion} from 'framer-motion';
 // Animations
 import { photoAnim, titleAnim, fade } from '../animation'
+import Wave from '../components/Wave'
 
 
 const HeroSection = () => {
@@ -26,6 +27,7 @@ const HeroSection = () => {
             <Image>
                 <motion.img variants={photoAnim} src={home1} alt="hero img"/>
             </Image>
+            <Wave></Wave>
         </StyledAbout>
     )
 }
