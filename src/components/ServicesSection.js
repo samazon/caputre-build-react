@@ -7,10 +7,14 @@ import clock from '../img/clock.svg'
 import diaphragm from '../img/diaphragm.svg'
 import money from '../img/money.svg'
 import teamwork from '../img/teamwork.svg'
+// Scroll Magic
+import{ UseScroll } from './UseScroll'
+import { scrollReveal } from '../animation'
 
 const ServicesSection = () => {
+    const [element, controls] = UseScroll();
     return (
-        <StyledServies>
+        <StyledServies variants={scrollReveal} ref={element} animate={controls} initial="hidden">
             <StyledDescription>
                 <Hide>
                 <h2>High <span>quality</span> services.</h2>

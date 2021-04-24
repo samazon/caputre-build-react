@@ -5,7 +5,6 @@ import Toggle  from './Toggle'
 // motion
 import { AnimateSharedLayout } from "framer-motion";
 
-
 const FaqSection = () => {
     return (
         <Faq>
